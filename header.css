@@ -1,0 +1,89 @@
+.cabecalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-image:url("../img/menu.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.container__imagem {
+    padding: 1em;
+    width: 47px;
+
+}
+.lista-menu{
+    display:none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+
+
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu__titulo,
+.lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+    text-transform: uppercase;
+}
+.lista-menu__titulo{
+    color: var(--ciano);
+}
+
+.container__imagem-2{
+    padding: 1em;
+    width: 72px;
+}
+
+.container__imagem-3{
+    padding: 1em;
+    width: 63px;
+}
+
+.search-container button {
+    background:rgb(225, 0, 199);
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+.imagem-sintomas{
+    width: 30%;
+    padding: 3em;
+    text-align: center;
+    background-color:rgb(225, 0, 199) ;
+}
+
+.imagem-outubro{
+    width: 40%;
+    padding: 14em;
+}
+
+.imagem-fundo{
+    background: rgb(225, 0, 199);
+}
+
+.fonte__texto{
+    font-size: 24px;
+    height: 10%;
+}
